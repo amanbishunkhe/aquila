@@ -38,3 +38,5 @@ function register_acf_blocks() {
 add_action('acf/init', 'register_acf_blocks');
 
 // and create a new field under the image-background-block in acf with above name
+// create a folder insite temtplate parts named "blocks" and inside
+// image-background-block.php file also, above code is of same file
